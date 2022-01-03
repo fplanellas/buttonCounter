@@ -131,7 +131,6 @@ export class ButtonCounter extends LitElement {
     }
 
     startFromInit() {
-        console.log('mandanga');
         this.shadowRoot.getElementById("progressBarr").style.width = "0";
         this.count = 500;
         this.Buttonrunning = false;
